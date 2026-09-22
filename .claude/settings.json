@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch",
+      "Read(./**)",
+      "Write(./documents/**)",
+      "Write(./cv/**)",
+      "Write(./cover_letters/**)",
+      "Write(./job_search_tracker.csv)",
+      "Bash(lualatex *)",
+      "Bash(xelatex *)",
+      "Bash(pdftotext *)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(curl * | sh)",
+      "Bash(git push*)"
+    ]
+  }
+}
