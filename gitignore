@@ -1,0 +1,25 @@
+# Personal data — never commit your real CV, applications, or tracker
+documents/cv/*
+!documents/cv/.gitkeep
+documents/linkedin/*
+!documents/linkedin/.gitkeep
+documents/diplomas/*
+!documents/diplomas/.gitkeep
+documents/references/*
+!documents/references/.gitkeep
+documents/applications/*
+!documents/applications/.gitkeep
+job_search_tracker.csv
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.pdf
+
+# OS junk
+.DS_Store
+Thumbs.db
