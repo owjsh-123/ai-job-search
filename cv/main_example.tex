@@ -1,0 +1,45 @@
+% Compile with: lualatex main_example.tex
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+
+\usepackage[scale=0.85]{geometry}
+
+\name{Jordan}{Rivera}
+\title{Senior Backend Engineer}
+\address{City, State}{}{}
+\phone[mobile]{+1~(555)~555~5555}
+\email{jordan.rivera@example.com}
+\social[linkedin]{jordan-rivera}
+\social[github]{jrivera}
+
+\begin{document}
+\makecvtitle
+
+\section{Summary}
+Backend engineer with 6+ years building high-throughput services. Placeholder —
+tailor this line per application to name the specific role/company focus.
+
+\section{Experience}
+\cventry{2022--Present}{Senior Backend Engineer}{Example Corp}{Remote}{}{
+\begin{itemize}
+\item Cut p99 API latency 35\% by redesigning the caching layer
+\item Led migration of 12 services from monolith to microservices, zero downtime
+\item Mentored 3 junior engineers; two promoted within a year
+\end{itemize}}
+
+\cventry{2019--2022}{Backend Engineer}{Prior Company}{City, State}{}{
+\begin{itemize}
+\item Built the payments reconciliation pipeline processing \$2M/day
+\item Reduced infra cost 20\% via right-sizing and reserved capacity
+\end{itemize}}
+
+\section{Education}
+\cventry{2015--2019}{B.S. Computer Science}{State University}{}{}{}
+
+\section{Skills}
+\cvitem{Languages}{Python, Go, TypeScript}
+\cvitem{Infrastructure}{AWS, Kubernetes, Terraform}
+\cvitem{Data}{PostgreSQL, Kafka, Redis}
+
+\end{document}
